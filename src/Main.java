@@ -21,4 +21,7 @@ public class Main {
         * w różnego rodzaju listach, selectach jako krótkie opcje wyboru np. jako status A, X (Aktualny, Usunięty) */
 
     }
+    public enum LiczbyEnum {
+        jeden , dwa, trzy, cztery, pięć, sześć;
+    }
 }
