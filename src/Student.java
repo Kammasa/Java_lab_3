@@ -4,7 +4,7 @@ public class Student {
     public int numerAlbumu;
     public boolean statusStudenta;
 
-    public Student(String imię, String nazwisko, int numerAlbumu, boolean statusStudenta) {
+    public Student (String imię, String nazwisko, int numerAlbumu, boolean statusStudenta) {
         this.imię = imię;
         this.nazwisko = nazwisko;
         this.numerAlbumu = numerAlbumu;
