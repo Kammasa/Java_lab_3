@@ -15,12 +15,12 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
         Student[] studenci = new Student[3];
-        Student stu = new Student ("Jan","Nowak",76897,false);
-        studenci[0] = stu;
-        stu = new Student ("Jan", "Kowalski", 54689, true);
-        studenci[1] = stu;
-        stu = new Student ("Edward","Ącki",11990,true);
-        studenci[2] = stu;
+        Student x = new Student ("Jan","Nowak",76897,false);
+        studenci[0] = x;
+        x = new Student ("Jan", "Kowalski", 54689, true);
+        studenci[1] = x;
+        x = new Student ("Edward","Ącki",11990,true);
+        studenci[2] = x;
 
         for (Student wypiszStudentów : studenci){
             wypiszStudentów.wypisanieDanych();
