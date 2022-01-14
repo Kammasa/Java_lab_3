@@ -15,10 +15,10 @@ public class Student {
         System.out.println("Imię: " + this.imię);
         System.out.println("Nazwisko: " + this.nazwisko);
         System.out.println("Numer Albumu: " + this.numerAlbumu);
-        if (false == statusStudenta) {
-            System.out.println("Status Studenta: Nieaktywny");
-        } else {
+        if (true == statusStudenta) {
             System.out.println("Status Studenta: Aktywny");
+        } else {
+            System.out.println("Status Studenta: Nieaktywny");
         }
     }
 }
