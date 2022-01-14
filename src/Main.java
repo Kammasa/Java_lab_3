@@ -15,11 +15,11 @@ public class Main {
             d) dane powinny być estetycznie przedstawione
          */
         Student[] studenci = new Student[3];
-        Student x = new Student ("Jan","Nowak",76897,false);
+        Student x = new Student ("Jan","Nowak",76897, false);
         studenci[0] = x;
         x = new Student ("Jan", "Kowalski", 54689, true);
         studenci[1] = x;
-        x = new Student ("Edward","Ącki",11990,true);
+        x = new Student ("Edward","Ącki",11990, true);
         studenci[2] = x;
 
         for (Student wypiszStudentów : studenci){
