@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +15,22 @@ public class Main {
             e) w klasie Main proszę stworzyć objekty podobnie jak w przykładzie 5,
             oraz stworzyć listę typu najbardziej generycznego np. List<Budynek>
          */
+Pojazd pojazd = new Pojazd("Merceds","GLA",2008,37500.00);
+        System.out.println(pojazd.toString());
+        System.out.println("Wartość pojazdu: " + pojazd.wyliczWartość() + " złotych");
 
+Samochód samochód = new Samochód("Fiat", "500",2010,56800.00,3,"Miętowy");
+        System.out.println(samochód.toString());
+        System.out.println("Wartość samochodu wynosi: " + samochód.wyliczWartość() + " złotych");
+
+Ciężarówka ciężarówka = new Ciężarówka("Mercedes", "Actros",2011, 154900.00, 2 , "Czarny", "Budowlany", 4);
+        System.out.println(ciężarówka.toString());
+        System.out.println("Wartość ciężarówki wynosi " + ciężarówka.wyliczWartość() + " złotych");
+
+        List<Pojazd> listaPojazdów = new ArrayList<>();
+        listaPojazdów.add(pojazd);
+        listaPojazdów.add(samochód);
+        listaPojazdów.add(ciężarówka);
+        System.out.println(listaPojazdów);
     }
 }
